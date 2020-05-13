@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AA7F31D6875BB20F97F6E097AD65F3F /* YYYWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F1AD84D6A2B4D0019C6FDBB39719DE68 /* YYYWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		217BC513023132F180B5EAD74A8AEA91 /* YYYWeakProxy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 028614CAB9D3440E2F39EC45AC6D7FEE /* YYYWeakProxy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243C7D738844DC0D86BFF763C46581DD /* Pods-YYYWeakProxy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8262A4B52D0B14B60C76C6961FA996 /* Pods-YYYWeakProxy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F20B474C7D74AB2F604559D3B1E7B70 /* YYYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C900521B5923F95669D6F66FFF6ED913 /* YYYWeakProxy.m */; };
+		771FF9519AF2C7DEEB04F6E1F223FE6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		818BF3CE6EC57145683CBBE81EA8CC92 /* YYYWeakProxy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA573E7E19880795B538DB9CA03A8513 /* YYYWeakProxy-dummy.m */; };
+		9CDE73EC3987F104BB30454D5B926837 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EB083634F38659E21BC7C51BD6BF3CA3 /* Pods-YYYWeakProxy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D08ED49C4F6FCF61DE0391A51966CD69 /* Pods-YYYWeakProxy-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49BA32417915DE1900C168227677237E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0C643054C453CD98056C7E4E1B31078;
+			remoteInfo = YYYWeakProxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002F07551A5A337779AF1036EF75833B /* YYYWeakProxy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYYWeakProxy-Info.plist"; sourceTree = "<group>"; };
+		028614CAB9D3440E2F39EC45AC6D7FEE /* YYYWeakProxy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYYWeakProxy-umbrella.h"; sourceTree = "<group>"; };
+		1984D11044663A1665C46B014AF936E9 /* Pods-YYYWeakProxy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YYYWeakProxy.modulemap"; sourceTree = "<group>"; };
+		1E8EE67337F32D36D134D85F89EBD873 /* Pods-YYYWeakProxy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYYWeakProxy.release.xcconfig"; sourceTree = "<group>"; };
+		2A1EDD948776436074281D5206AFBD99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33017B5E420B6A6A8F96017E0EFA3CA3 /* Pods-YYYWeakProxy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYYWeakProxy-Info.plist"; sourceTree = "<group>"; };
+		33C39A65E1F764623CDA69A24F03EED5 /* YYYWeakProxy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYYWeakProxy-prefix.pch"; sourceTree = "<group>"; };
+		403C8872378A6285092E8B0DC64A7FFD /* YYYWeakProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYYWeakProxy.framework; path = YYYWeakProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4392783852CFFF990994F84844C73F70 /* Pods-YYYWeakProxy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYYWeakProxy-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B0C5B059E59971A27072622663EF1A7 /* Pods-YYYWeakProxy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YYYWeakProxy-frameworks.sh"; sourceTree = "<group>"; };
+		4CE5E1E9355500E45DAD29A0A921849D /* YYYWeakProxy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYYWeakProxy.modulemap; sourceTree = "<group>"; };
+		53D61283BCF86C221988F01C49CF8105 /* Pods-YYYWeakProxy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYYWeakProxy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65AC8CBD4FBCED7833575F130977DFB9 /* Pods-YYYWeakProxy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYYWeakProxy.debug.xcconfig"; sourceTree = "<group>"; };
+		83BDDCA6822259C218AA4899C189F683 /* Pods_YYYWeakProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YYYWeakProxy.framework; path = "Pods-YYYWeakProxy.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA573E7E19880795B538DB9CA03A8513 /* YYYWeakProxy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYYWeakProxy-dummy.m"; sourceTree = "<group>"; };
+		AD8262A4B52D0B14B60C76C6961FA996 /* Pods-YYYWeakProxy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YYYWeakProxy-umbrella.h"; sourceTree = "<group>"; };
+		C900521B5923F95669D6F66FFF6ED913 /* YYYWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYWeakProxy.m; path = YYYWeakProxy/Classes/YYYWeakProxy.m; sourceTree = "<group>"; };
+		D08ED49C4F6FCF61DE0391A51966CD69 /* Pods-YYYWeakProxy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYYWeakProxy-dummy.m"; sourceTree = "<group>"; };
+		E73218DFF3532B340E0B214E1FF92CA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EAE18F883300C95C10EA3CE0939F0DF8 /* YYYWeakProxy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYYWeakProxy.xcconfig; sourceTree = "<group>"; };
+		EBF18767C5BA49EB326DDA4C7446E3B2 /* YYYWeakProxy.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YYYWeakProxy.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F1AD84D6A2B4D0019C6FDBB39719DE68 /* YYYWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYYWeakProxy.h; path = YYYWeakProxy/Classes/YYYWeakProxy.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39D27ADD1586380E84C9EABCEB59114E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDE73EC3987F104BB30454D5B926837 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85571BA75A0EF1EFE13086E5D9647D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771FF9519AF2C7DEEB04F6E1F223FE6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D1183C930061A06E471E8F28A72C93F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83BDDCA6822259C218AA4899C189F683 /* Pods_YYYWeakProxy.framework */,
+				403C8872378A6285092E8B0DC64A7FFD /* YYYWeakProxy.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43631766EB7494DBF814DE554C3D919B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E73218DFF3532B340E0B214E1FF92CA2 /* LICENSE */,
+				2A1EDD948776436074281D5206AFBD99 /* README.md */,
+				EBF18767C5BA49EB326DDA4C7446E3B2 /* YYYWeakProxy.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5569C6071FE80EE47E39984BE17DFAF0 /* YYYWeakProxy */ = {
+			isa = PBXGroup;
+			children = (
+				F1AD84D6A2B4D0019C6FDBB39719DE68 /* YYYWeakProxy.h */,
+				C900521B5923F95669D6F66FFF6ED913 /* YYYWeakProxy.m */,
+				43631766EB7494DBF814DE554C3D919B /* Pod */,
+				65633BC25F99F8E47F23D29B957B2E09 /* Support Files */,
+			);
+			name = YYYWeakProxy;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		65633BC25F99F8E47F23D29B957B2E09 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CE5E1E9355500E45DAD29A0A921849D /* YYYWeakProxy.modulemap */,
+				EAE18F883300C95C10EA3CE0939F0DF8 /* YYYWeakProxy.xcconfig */,
+				AA573E7E19880795B538DB9CA03A8513 /* YYYWeakProxy-dummy.m */,
+				002F07551A5A337779AF1036EF75833B /* YYYWeakProxy-Info.plist */,
+				33C39A65E1F764623CDA69A24F03EED5 /* YYYWeakProxy-prefix.pch */,
+				028614CAB9D3440E2F39EC45AC6D7FEE /* YYYWeakProxy-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YYYWeakProxy";
+			sourceTree = "<group>";
+		};
+		67C0DE929FBAA05586466A797D858118 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB25B8F072BAB456C19E53AB8633C9B0 /* Pods-YYYWeakProxy */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BB25B8F072BAB456C19E53AB8633C9B0 /* Pods-YYYWeakProxy */ = {
+			isa = PBXGroup;
+			children = (
+				1984D11044663A1665C46B014AF936E9 /* Pods-YYYWeakProxy.modulemap */,
+				53D61283BCF86C221988F01C49CF8105 /* Pods-YYYWeakProxy-acknowledgements.markdown */,
+				4392783852CFFF990994F84844C73F70 /* Pods-YYYWeakProxy-acknowledgements.plist */,
+				D08ED49C4F6FCF61DE0391A51966CD69 /* Pods-YYYWeakProxy-dummy.m */,
+				4B0C5B059E59971A27072622663EF1A7 /* Pods-YYYWeakProxy-frameworks.sh */,
+				33017B5E420B6A6A8F96017E0EFA3CA3 /* Pods-YYYWeakProxy-Info.plist */,
+				AD8262A4B52D0B14B60C76C6961FA996 /* Pods-YYYWeakProxy-umbrella.h */,
+				65AC8CBD4FBCED7833575F130977DFB9 /* Pods-YYYWeakProxy.debug.xcconfig */,
+				1E8EE67337F32D36D134D85F89EBD873 /* Pods-YYYWeakProxy.release.xcconfig */,
+			);
+			name = "Pods-YYYWeakProxy";
+			path = "Target Support Files/Pods-YYYWeakProxy";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DF6F5422518AFCD2CDE8D5DF77BE562E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3D1183C930061A06E471E8F28A72C93F /* Products */,
+				67C0DE929FBAA05586466A797D858118 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF6F5422518AFCD2CDE8D5DF77BE562E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5569C6071FE80EE47E39984BE17DFAF0 /* YYYWeakProxy */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		78E76CE070F35127C0F67A43F31B17E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243C7D738844DC0D86BFF763C46581DD /* Pods-YYYWeakProxy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64F1723274485561445743FBE4F5654 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217BC513023132F180B5EAD74A8AEA91 /* YYYWeakProxy-umbrella.h in Headers */,
+				1AA7F31D6875BB20F97F6E097AD65F3F /* YYYWeakProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B0C643054C453CD98056C7E4E1B31078 /* YYYWeakProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7E3C4F2D60A765B7EE0EC171316E51 /* Build configuration list for PBXNativeTarget "YYYWeakProxy" */;
+			buildPhases = (
+				E64F1723274485561445743FBE4F5654 /* Headers */,
+				D136EA1519CA8691FB51924976AAB81E /* Sources */,
+				85571BA75A0EF1EFE13086E5D9647D6B /* Frameworks */,
+				EA4594983FF6C4B607CD68FC3D072812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYYWeakProxy;
+			productName = YYYWeakProxy;
+			productReference = 403C8872378A6285092E8B0DC64A7FFD /* YYYWeakProxy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE8F6C4B0DED90FDD5FBBFDFC37CC2A4 /* Pods-YYYWeakProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B24A63F2C46516616A495DFE7785D1 /* Build configuration list for PBXNativeTarget "Pods-YYYWeakProxy" */;
+			buildPhases = (
+				78E76CE070F35127C0F67A43F31B17E4 /* Headers */,
+				63B1D404BE178B5C6064B16422FCE12B /* Sources */,
+				39D27ADD1586380E84C9EABCEB59114E /* Frameworks */,
+				60D8571D634D59E40BCA906DF3797817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95D9F402EFCC84E81FC2ADBCF987B40 /* PBXTargetDependency */,
+			);
+			name = "Pods-YYYWeakProxy";
+			productName = "Pods-YYYWeakProxy";
+			productReference = 83BDDCA6822259C218AA4899C189F683 /* Pods_YYYWeakProxy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3D1183C930061A06E471E8F28A72C93F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8F6C4B0DED90FDD5FBBFDFC37CC2A4 /* Pods-YYYWeakProxy */,
+				B0C643054C453CD98056C7E4E1B31078 /* YYYWeakProxy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60D8571D634D59E40BCA906DF3797817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4594983FF6C4B607CD68FC3D072812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63B1D404BE178B5C6064B16422FCE12B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB083634F38659E21BC7C51BD6BF3CA3 /* Pods-YYYWeakProxy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D136EA1519CA8691FB51924976AAB81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818BF3CE6EC57145683CBBE81EA8CC92 /* YYYWeakProxy-dummy.m in Sources */,
+				3F20B474C7D74AB2F604559D3B1E7B70 /* YYYWeakProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B95D9F402EFCC84E81FC2ADBCF987B40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYYWeakProxy;
+			target = B0C643054C453CD98056C7E4E1B31078 /* YYYWeakProxy */;
+			targetProxy = 49BA32417915DE1900C168227677237E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D6E9A4FDF3C95AFEE83B7B7ABF23BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE18F883300C95C10EA3CE0939F0DF8 /* YYYWeakProxy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYYWeakProxy/YYYWeakProxy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYYWeakProxy/YYYWeakProxy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YYYWeakProxy/YYYWeakProxy.modulemap";
+				PRODUCT_MODULE_NAME = YYYWeakProxy;
+				PRODUCT_NAME = YYYWeakProxy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D59167F448C01721AE2E39B44610B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65AC8CBD4FBCED7833575F130977DFB9 /* Pods-YYYWeakProxy.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YYYWeakProxy/Pods-YYYWeakProxy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YYYWeakProxy/Pods-YYYWeakProxy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B1F13D49B97FF90469FE040925F8D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A279E0FF0C1B38B294FEB2A79B024412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE18F883300C95C10EA3CE0939F0DF8 /* YYYWeakProxy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYYWeakProxy/YYYWeakProxy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYYWeakProxy/YYYWeakProxy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YYYWeakProxy/YYYWeakProxy.modulemap";
+				PRODUCT_MODULE_NAME = YYYWeakProxy;
+				PRODUCT_NAME = YYYWeakProxy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8EFA68AC855A5B2B43BF716E27BD98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D3C64F564540F086F37FCE207C9AE343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8EE67337F32D36D134D85F89EBD873 /* Pods-YYYWeakProxy.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YYYWeakProxy/Pods-YYYWeakProxy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YYYWeakProxy/Pods-YYYWeakProxy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8EFA68AC855A5B2B43BF716E27BD98D /* Debug */,
+				4B1F13D49B97FF90469FE040925F8D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B24A63F2C46516616A495DFE7785D1 /* Build configuration list for PBXNativeTarget "Pods-YYYWeakProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D59167F448C01721AE2E39B44610B28 /* Debug */,
+				D3C64F564540F086F37FCE207C9AE343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7E3C4F2D60A765B7EE0EC171316E51 /* Build configuration list for PBXNativeTarget "YYYWeakProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6E9A4FDF3C95AFEE83B7B7ABF23BC7 /* Debug */,
+				A279E0FF0C1B38B294FEB2A79B024412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

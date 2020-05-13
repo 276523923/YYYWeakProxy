@@ -1,0 +1,16 @@
+PODS:
+  - YYYWeakProxy (1.0.0)
+
+DEPENDENCIES:
+  - YYYWeakProxy (from `../`)
+
+EXTERNAL SOURCES:
+  YYYWeakProxy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YYYWeakProxy: d3b6328e2d12956fa61d9882a4dae1210a2ba79b
+
+PODFILE CHECKSUM: f93ed809d79ce000a09c8ad51ce9a2690f2dccfe
+
+COCOAPODS: 1.8.3
